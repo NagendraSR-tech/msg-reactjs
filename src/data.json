@@ -1,0 +1,227 @@
+{
+	"metrics": [
+		{
+			"key": "memory",
+			"name": "Memory",
+			"description": "Memory is the basis for all computations. The more memory is available, the more vCPUs and storage are used as well.",
+			"volume": 0,
+			"minimum": 60,
+			"maximum": 5970,
+			"unit": "GB",
+			"stepping": 15,
+			"enabled": true,
+			"separated": false
+		},
+		{
+			"key": "compute",
+			"name": "Compute",
+			"description": "",
+			"volume": 0,
+			"minimum": 2,
+			"maximum": 440,
+			"unit": "vCPUs",
+			"stepping": 1,
+			"enabled": false,
+			"separated": false
+		},
+		{
+			"key": "storage",
+			"name": "Storage",
+			"description": "",
+			"volume": 0,
+			"minimum": 120,
+			"maximum": 16000,
+			"unit": "GB",
+			"stepping": 1,
+			"enabled": false,
+			"separated": false
+		},
+		{
+			"key": "data_lake",
+			"name": "Optional: Data Lake",
+			"description": "The optional data lake lets you acquire and store large amounts of data from other applications cheaply. Data Lake storage comes with 16 vCPUs.",
+			"volume": 0,
+			"minimum": 0,
+			"maximum": 90,
+			"unit": "TB",
+			"stepping": 1,
+			"enabled": true,
+			"separated": true
+		},
+		{
+			"key": "data_lake_compute",
+			"name": "Optional: Data Lake Compute",
+			"description": "",
+			"volume": 0,
+			"minimum": 0,
+			"maximum": 16,
+			"unit": "vCPUs",
+			"stepping": 1,
+			"enabled": false,
+			"separated": false
+		},
+		{
+			"key": "network_transfer",
+			"name": "Optional: Network Transfer",
+			"description": "The optional network data transfer allows to include SAP PaPM MicroServices like Workbook Calculations directly into your SAP Analytics Cloud Apps and own applications.",
+			"volume": 0,
+			"minimum": 0,
+			"maximum": 20000,
+			"unit": "GB",
+			"stepping": 100,
+			"enabled": true,
+			"separated": true
+		}
+	],
+	"useCases": [
+		{
+			"key": "tax_calculation",
+			"name": "Tax Calculation and Reporting",
+			"description": "Direct corporate tax calculation and reporting of income and deferred taxes."
+		},
+		{
+			"key": "corporate_sustainability",
+			"name": "Corporate Sustainability",
+			"description": "Measure and optimize the economic, environment and social impact of your company."
+		},
+		{
+			"key": "allocation_hub",
+			"name": "Allocation Hub",
+			"description": "Run allocations and simulations across multiple systems."
+		},
+		{
+			"key": "it_cost_mngmnt",
+			"name": "IT Cost Management",
+			"description": "IT Cost Transparency, Financial Management and automated Bill of IT."
+		},
+		{
+			"key": "value_chain_sustainability",
+			"name": "Value Chain Sustainability",
+			"description": "Measure and optimize the economic, environment and social impact of your company, upstream and downstream, and even your products."
+		},
+		{
+			"key": "operationalTransferPricing",
+			"name": "Operational Transfer Pricing",
+			"description": "Transfer Pricing for intermediates, licenses, services and products between legal entities (OECD Transfer Price Guidelines) including top-adjustments. "
+		},
+		{
+			"key": "profitability",
+			"name": "Profitability and Cost Management",
+			"description": "Optimize profitability and cost on Product & Service, Channel and Customer Level."
+		},
+		{
+			"key": "embedded_calc",
+			"name": "Embedded Calculations",
+			"description": "Embed Calculations as a MicroService in your own Apps."
+		},
+		{
+			"key": "manual",
+			"name": "Manual",
+			"description": "Maintain your custom specific sizing requirements directly."
+		}
+	],
+	"hyperscalers": [
+		{
+			"name": "Amazon Web Services",
+			"key": "aws",
+			"metricValuesByUseCase": {
+				"tax_calculation": {
+					"memory": 60,
+					"data_lake": 0,
+					"network_transfer": 0
+				},
+				"corporate_sustainability": {
+					"memory": 120,
+					"data_lake": 0,
+					"network_transfer": 0
+				},
+				"allocation_hub": {
+					"memory": 180,
+					"data_lake": 0,
+					"network_transfer": 0
+				},
+				"it_cost_mngmnt": {
+					"memory": 240,
+					"data_lake": 0,
+					"network_transfer": 0
+				},
+				"value_chain_sustainability": {
+					"memory": 300,
+					"data_lake": 0,
+					"network_transfer": 0
+				},
+				"operationalTransferPricing": {
+					"memory": 600,
+					"data_lake": 0,
+					"network_transfer": 0
+				},
+				"profitability": {
+					"memory": 900,
+					"data_lake": 0,
+					"network_transfer": 0
+				},
+				"embedded_calc": {
+					"memory": 60,
+					"data_lake": 0,
+					"network_transfer": 1000
+				},
+				"manual": {
+					"memory": 60,
+					"data_lake": 0,
+					"network_transfer": 0
+				}
+			}
+		},
+		{
+			"name": "Microsoft Azure",
+			"key": "azure",
+			"metricValuesByUseCase": {
+				"tax_calculation": {
+					"memory": 64,
+					"data_lake": 0,
+					"network_transfer": 0
+				},
+				"corporate_sustainability": {
+					"memory": 128,
+					"data_lake": 0,
+					"network_transfer": 0
+				},
+				"allocation_hub": {
+					"memory": 192,
+					"data_lake": 0,
+					"network_transfer": 0
+				},
+				"it_cost_mngmnt": {
+					"memory": 240,
+					"data_lake": 0,
+					"network_transfer": 0
+				},
+				"value_chain_sustainability": {
+					"memory": 480,
+					"data_lake": 0,
+					"network_transfer": 0
+				},
+				"operationalTransferPricing": {
+					"memory": 608,
+					"data_lake": 0,
+					"network_transfer": 0
+				},
+				"profitability": {
+					"memory": 912,
+					"data_lake": 0,
+					"network_transfer": 0
+				},
+				"embedded_calc": {
+					"memory": 64,
+					"data_lake": 0,
+					"network_transfer": 1000
+				},
+				"manual": {
+					"memory": 64,
+					"data_lake": 0,
+					"network_transfer": 0
+				}
+			}
+		}
+	]
+}

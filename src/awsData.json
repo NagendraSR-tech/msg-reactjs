@@ -1,0 +1,372 @@
+[
+    {
+        "memory": 60,
+		"compute": 4,
+		"storage": 200
+    },
+    {
+        "memory": 75,
+		"compute": 5,
+		"storage": 240
+    },
+    {
+        "memory": 90,
+		"compute": 6,
+		"storage": 280
+    },
+    {
+        "memory": 105,
+		"compute": 7,
+		"storage": 320
+    },
+    {
+        "memory": 120,
+		"compute": 8,
+		"storage": 360
+    },
+    {
+        "memory": 135,
+		"compute": 9,
+		"storage": 400
+    },
+    {
+        "memory": 150,
+		"compute": 10,
+		"storage": 440
+    },
+    {
+        "memory": 165,
+		"compute": 11,
+		"storage": 480
+    },
+    {
+        "memory": 180,
+		"compute": 12,
+		"storage": 520
+    },
+    {
+        "memory": 195,
+		"compute": 13,
+		"storage": 560
+    },
+    {
+        "memory": 210,
+		"compute": 14,
+		"storage": 600
+    },
+    {
+        "memory": 225,
+		"compute": 15,
+		"storage": 640
+    },
+    {
+        "memory": 240,
+		"compute": 16,
+		"storage": 680
+    },
+    {
+        "memory": 255,
+		"compute": 17,
+		"storage": 720
+    },
+    {
+        "memory": 270,
+		"compute": 18,
+		"storage": 760
+    },
+    {
+        "memory": 285,
+		"compute": 19,
+		"storage": 800
+    },
+    {
+        "memory": 300,
+		"compute": 20,
+		"storage": 840
+    },
+    {
+        "memory": 315,
+		"compute": 21,
+		"storage": 880
+    },
+    {
+        "memory": 330,
+		"compute": 22,
+		"storage": 920
+    },
+    {
+        "memory": 345,
+		"compute": 23,
+		"storage": 960
+    },
+    {
+        "memory": 360,
+		"compute": 24,
+		"storage": 1000
+    },
+    {
+        "memory": 375,
+		"compute": 25,
+		"storage": 1040
+    },
+    {
+        "memory": 390,
+		"compute": 26,
+		"storage": 1080
+    },
+    {
+        "memory": 405,
+		"compute": 27,
+		"storage": 1120
+    },
+    {
+        "memory": 420,
+		"compute": 28,
+		"storage": 1160
+    },
+    {
+        "memory": 435,
+		"compute": 29,
+		"storage": 1200
+    },
+    {
+        "memory": 450,
+		"compute": 30,
+		"storage": 1240
+    },
+    {
+        "memory": 465,
+		"compute": 31,
+		"storage": 1280
+    },
+    {
+        "memory": 480,
+		"compute": 32,
+		"storage": 1320
+    },
+    {
+        "memory": 495,
+		"compute": 33,
+		"storage": 1360
+    },
+    {
+        "memory": 510,
+		"compute": 34,
+		"storage": 1400
+    },
+    {
+        "memory": 525,
+		"compute": 35,
+		"storage": 1440
+    },
+    {
+        "memory": 540,
+		"compute": 36,
+		"storage": 1480
+    },
+    {
+        "memory": 555,
+		"compute": 37,
+		"storage": 1520
+    },
+    {
+        "memory": 570,
+		"compute": 38,
+		"storage": 1560
+    },
+    {
+        "memory": 585,
+		"compute": 39,
+		"storage": 1600
+    },
+    {
+        "memory": 600,
+		"compute": 40,
+		"storage": 1640
+    },
+    {
+        "memory": 615,
+		"compute": 41,
+		"storage": 1680
+    },
+    {
+        "memory": 630,
+		"compute": 42,
+		"storage": 1720
+    },
+    {
+        "memory": 645,
+		"compute": 43,
+		"storage": 1760
+    },
+    {
+        "memory": 660,
+		"compute": 44,
+		"storage": 1800
+    },
+    {
+        "memory": 675,
+		"compute": 45,
+		"storage": 1840
+    },
+    {
+        "memory": 690,
+		"compute": 46,
+		"storage": 1880
+    },
+    {
+        "memory": 705,
+		"compute": 47,
+		"storage": 1920
+    },
+    {
+        "memory": 720,
+		"compute": 48,
+		"storage": 1960
+    },
+    {
+        "memory": 735,
+		"compute": 49,
+		"storage": 2000
+    },
+    {
+        "memory": 750,
+		"compute": 50,
+		"storage": 2040
+    },
+    {
+        "memory": 765,
+		"compute": 51,
+		"storage": 2080
+    },
+    {
+        "memory": 780,
+		"compute": 52,
+		"storage": 2120
+    },
+    {
+        "memory": 795,
+		"compute": 53,
+		"storage": 2160
+    },
+    {
+        "memory": 810,
+		"compute": 54,
+		"storage": 2200
+    },
+    {
+        "memory": 825,
+		"compute": 55,
+		"storage": 2240
+    },
+    {
+        "memory": 840,
+		"compute": 56,
+		"storage": 2280
+    },
+    {
+        "memory": 855,
+		"compute": 57,
+		"storage": 2320
+    },
+    {
+        "memory": 870,
+		"compute": 58,
+		"storage": 2360
+    },
+    {
+        "memory": 885,
+		"compute": 59,
+		"storage": 2400
+    },
+    {
+        "memory": 900,
+		"compute": 60,
+		"storage": 2440
+    },
+    {
+        "memory": 960,
+		"compute": 64,
+		"storage": 2600
+    },
+    {
+        "memory": 1020,
+		"compute": 68,
+		"storage": 2760
+    },
+    {
+        "memory": 1080,
+		"compute": 72,
+		"storage": 2920
+    },
+    {
+        "memory": 1140,
+		"compute": 76,
+		"storage": 3080
+    },
+    {
+        "memory": 1200,
+		"compute": 80,
+		"storage": 3240
+    },
+    {
+        "memory": 1260,
+		"compute": 84,
+		"storage": 3400
+    },
+    {
+        "memory": 1320,
+		"compute": 88,
+		"storage": 3560
+    },
+    {
+        "memory": 1380,
+		"compute": 92,
+		"storage": 3720
+    },
+    {
+        "memory": 1440,
+		"compute": 96,
+		"storage": 3880
+    },
+    {
+        "memory": 1500,
+		"compute": 100,
+		"storage": 4040
+    },
+    {
+        "memory": 1560,
+		"compute": 104,
+		"storage": 4200
+    },
+    {
+        "memory": 1620,
+		"compute": 108,
+		"storage": 4360
+    },
+    {
+        "memory": 1680,
+		"compute": 112,
+		"storage": 4520
+    },
+    {
+        "memory": 1740,
+		"compute": 116,
+		"storage": 4680
+    },
+    {
+        "memory": 1800,
+		"compute": 120,
+		"storage": 4840
+    },
+    {
+        "memory": 3600,
+		"compute": 120,
+		"storage": 9640
+    },
+    {
+        "memory": 5970,
+		"compute": 440,
+		"storage": 1600
+    }
+]

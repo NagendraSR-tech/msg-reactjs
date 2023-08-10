@@ -1,0 +1,21 @@
+main { background-color: #f7f7f7;}
+* { box-sizing: border-box; }
+
+.navbar-dark {  background-color: #354a5f; }
+.navbar h5 { font-size: 0.875rem; margin-bottom: 0;}
+.sizing-calc-header{ background: #ffffff; }
+.sizing-calc-header h1 { font-size: 1.25rem; font-weight: normal; background: #ffffff; }
+.header-content { display: flex; flex-direction: row; justify-content: space-between; align-items: center;}
+
+.section-title { border-bottom: .0625rem solid #0854a0; display: inline-block; height: 2.75rem; line-height: 2.25rem; color: #32363a; font-size: 1.125rem;}
+form h4.form-title { border-bottom: #d9d9d9 solid 1px; height: 2.75rem; line-height: 2.75rem; font-weight: normal; font-size: 1.25rem;}
+label { font-size: 0.875rem;}
+.form-check span { margin-left: 0.25rem; color: #0854a0;}
+#popoverButton { color: #0854a0;}
+
+.data-size-form {display: flex;}
+.data-size-form .btn{color: #0854a0;}
+.data-size-form span [type="button"] { color: #0854a0;}
+.data-size-form .input-group input { text-align: right;}
+.data-size-form input.form-control { width: 5rem !important;}
+.input-group { max-width: 18rem;}
