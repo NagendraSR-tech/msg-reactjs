@@ -8,7 +8,7 @@ const IncrementDecrementButtons = ({
   handleIncrement,
   handleDecrement,
   handleInputChange,
-  handleManualEntry,
+  handleManualMemoryValue
 }) => {
   return (
     <>
@@ -31,14 +31,18 @@ const IncrementDecrementButtons = ({
                 className="form-control border"
                 id={metric.key}
                 name={metric.key}
-                value={metric.volume}
-                // value={metric.minimum}
+                value={updatedMetrics.find((m) => m.key === metric.key).volume}
                 disabled={!metric.enabled}
                 step={metric.stepping}
                 min={metric.minimum}
                 max={metric.maximum}
                 onChange={handleInputChange}
-                onClick={() => handleManualEntry(metric.key)}
+                onBlur={handleManualMemoryValue}
+                onKeyDown={(e) => {
+                  if (e.key === "Enter") {
+                    handleManualMemoryValue();
+                  }
+                }}
               />
               <button
                 className="btn btn-outline-secondary border"

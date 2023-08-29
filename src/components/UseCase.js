@@ -1,7 +1,13 @@
 import React from "react";
 import PopoverC from "./PopoverC";
 
-const UseCase = ({ useCases, selectedUseCase, handleUseCaseChange }) => {
+const UseCase = ({
+  useCases,
+  selectedUseCase,
+  handleUseCaseChange,
+  isManualActive,
+  lastManualUseCase
+}) => {
   return (
     <>
       <h4 className="form-title">Calculate by Use Case</h4>
@@ -14,7 +20,12 @@ const UseCase = ({ useCases, selectedUseCase, handleUseCaseChange }) => {
               className="form-check-input"
               name="useCase"
               value={useCase.key}
-              checked={selectedUseCase === useCase.key}
+              checked={
+                selectedUseCase === useCase.key ||
+                (isManualActive &&
+                  (useCase.key === "manual" ||
+                    useCase.key === lastManualUseCase))
+              }
               onChange={handleUseCaseChange}
             />
             {useCase.name}

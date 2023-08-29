@@ -2,6 +2,7 @@ import "./App.css";
 import React, { useState } from "react";
 import DataSizes from "./components/DataSizes";
 import jsonData from "./data.json";
+import LoadModal from "./components/LoadModal";
 
 function App() {
   // const [selectedUseCase, setSelectedUseCase] = useState("");
@@ -24,6 +25,7 @@ function App() {
           selectedHyperscaler={selectedHyperscaler}
           handleHyperscalerChange={handleHyperscalerChange}
         />
+        <LoadModal/>
       </main>
     </>
   );
